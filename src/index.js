@@ -36,6 +36,8 @@ module.exports = function toReadable (number) {
     } else {
         result = 'mistake'
     }
+
+    
     if ( number == 0) {
     result = zero;
     // number === 0
